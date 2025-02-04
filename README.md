@@ -1,3 +1,3 @@
 # JavaScriptProgramLab-M-s-i
-JavaScript Program
+JavaScript Program.
 Author- Ashutosh Jaiswal
