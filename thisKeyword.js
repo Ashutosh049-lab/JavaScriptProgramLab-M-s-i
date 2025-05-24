@@ -99,25 +99,25 @@
 // ➤ You can call the returned function later.
 
 
-// greet = function(greeting,phone) {
-//     console.log( "hello", this.user, greeting,phone);
-// }
+greet = function(greeting,phone) {
+    console.log( "hello", this.user, greeting,phone);
+}
 
-// let obj1={
-//     user:"Ashutosh"
-// }
-
-
-// let obj2={
-//     user:"Rahul"
-// }
+let obj1={
+    user:"Ashutosh"
+}
 
 
-// let obj3={
-//     user:"Karan"
-// }
+let obj2={
+    user:"Rahul"
+}
 
-// let binded=greet.bind(obj3,1,2);
 
-// binded()
+let obj3={
+    user:"Karan"
+}
+
+let binded=greet.bind(obj3,1,2);
+
+binded()
 
