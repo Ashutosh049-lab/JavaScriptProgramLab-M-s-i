@@ -367,28 +367,29 @@
 
 // ====================callback function======================================
 
-// function hii(data){
-//     console.log("Hi...");
-// }
+function hii(data){
+    console.log("Hi...");
+}
 
-// function hello(){
-//     console.log("hello");
-// }
+function hello(){
+    console.log("hello");
+}
 
-// function calculation(a,b,callback,delay){
+function calculation(a,b,callback,delay){
 
     
-//    // console.log(a+b);
-//    setTimeout(()=>{
-//      console.log(a+b);
-//        callback();
-//    },delay)
+   // console.log(a+b);
+   setTimeout(()=>{
+     console.log(a+b);
+       callback(); 
+       //hii()
+   },delay)
     
-// }
+}
 
 
-// calculation(1,3,hii,2000)
-// calculation(1,5,hello,10000)
+calculation(1,3,hii,2000)
+calculation(1,5,hello,10000)
   
 
  //and using setIntervals()
@@ -572,19 +573,19 @@
 
 
 
-function counter(){
+// function counter(){
 
-    let count=0;
+//     let count=0;
 
-    function child(){
-        count++;
-        return  count;
-    }
+//     function child(){
+//         count++;
+//         return  count;
+//     }
 
-    return child;
-}
+//     return child;
+// }
 
-let counting=counter();
+//let counting=counter();
 // console.log(counting)
 // console.log(counting())
     
